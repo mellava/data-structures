@@ -9,8 +9,6 @@ var BinarySearchTree = function(value) {
 
 bstMethods = {};
 
-
-
 bstMethods.insert = function(value) {
   if (this.value === value) {
     return;
